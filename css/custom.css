@@ -1,6 +1,9 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
-
+section,
+footer {
+	padding: 80px 0;
+}
 
 
 

@@ -338,7 +338,7 @@ $(document).ready(function() {
             directionNav: false
         });
         $('.slider-arrow-controls').flexslider({
-            controlNav: false
+            controlNav: false, slideshowSpeed: 15000
         });
         $('.slider-thumb-controls .slides li').each(function() {
             var imgSrc = $(this).find('img').attr('src');
