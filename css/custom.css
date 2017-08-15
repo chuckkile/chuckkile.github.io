@@ -2,11 +2,15 @@
 
 section,
 footer {
-	padding: 80px 0;
+	padding: 70px 0;
 }
 
 
 
+/******* Small Logo ********/
+.sm-mhr-logo {
+	height: 50px;
+}
 
 
 /******* Nav Bar ********/
@@ -58,23 +62,36 @@ i.fa.fa-facebook:active {
 	transform: scale(1.35);
 }
 
+/******* Testimoials ********/
+.testimonials .quote-author {
+	text-align: center;
+}
+
+
+
 /******* Lightbox Grid ********/
 .lightbox-grid li {
 	width: 33%;
 }
 
+.lb-image {
+	height: 100%;
+}
 
+.image-tile {
+	margin-bottom: 0;
+	height: 100%;
+}
 
+body > div.main-container > section.image-row > div > div > div > div > ul {
+	margin-bottom: 0;
+}
 
 /******* History ********/
 .tab-title {
 	color: #706d66;
 }
 
-/******* CTA ********/
-section.pt64.pb64 {
-	background: #f8f8f8;
-}
 
 .overlay:before {
 	opacity: 0.6;
@@ -86,14 +103,6 @@ a.btn.btn-filled.btn-lg.mb0:active {
 	color: #706d66;
 }
 
-/******* CTA ********
-.tile-right {
-	float: right;
-}
-
-.tile-left {
-	float: left;
-}
 
 /******* Team ********/
 .team-img {
@@ -115,6 +124,10 @@ body > div.main-container > section:nth-child(7) {
 
 .service-link {
 	text-decoration: underline;
+}
+
+.services {
+	background-color: #
 }
 
 /******* Features ********/
