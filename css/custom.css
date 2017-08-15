@@ -1,0 +1,134 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+
+
+
+
+
+
+/******* Nav Bar ********/
+.menu li a:link,
+.menu li a:visited {
+	border-bottom: 2px solid transparent;
+	-webkit-transition: border-bottom 0.2s;
+	transition: border-bottom .4s;
+}
+
+.menu li a:hover,
+.menu li a:active {
+	border-bottom: 2px solid #eee;
+}
+
+
+/******* Hero ********/
+.btn-transition {
+	transition: color .3s;
+}
+
+/******* Social Icons ********/
+i.fa.fa-houzz,
+i.fa-facebook,
+i.fa-calendar,
+i.fa-handshake-o,
+i.fa-thumbs-up {
+	font-size: 200%;
+	transition: all .2s ease-in-out;
+}
+
+.fa-facebook {
+	font-size: 200%;
+}
+
+i.fa.fa-houzz:hover,
+i.fa.fa-houzz:active {
+	color: #8cc34c;
+	-webkit-transform: scale(1.35);
+	-ms-transform: scale(1.35);
+	transform: scale(1.35);
+}
+
+i.fa.fa-facebook:hover,
+i.fa.fa-facebook:active {
+	color: #3b5998;
+	-webkit-transform: scale(1.35);
+	-ms-transform: scale(1.35);
+	transform: scale(1.35);
+}
+
+
+/******* History ********/
+.tab-title {
+	color: #706d66;
+}
+
+/******* CTA ********/
+section.pt64.pb64 {
+	background: #f8f8f8;
+}
+
+.overlay:before {
+	opacity: 0.6;
+}
+
+a.btn.btn-filled.btn-lg.mb0:hover,
+a.btn.btn-filled.btn-lg.mb0:active {
+	background-color: #fff;
+	color: #706d66;
+}
+
+/******* CTA ********
+.tile-right {
+	float: right;
+}
+
+.tile-left {
+	float: left;
+}
+
+/******* Team ********/
+.team-img {
+	max-height: 250px;
+	max-width: 250px;
+	border-radius: 2px;
+}
+
+/******* Services ********/
+body > div.main-container > section:nth-child(7) > div > section:nth-child(2),
+body > div.main-container > section:nth-child(7) {
+	padding: 70px 0 40px 0;
+}
+
+/******* Features ********/
+.custom-feature {
+	text-align: center;
+}
+
+
+/******* Footer ********/
+.logo-box img {
+	height: 100%;
+	width: auto;
+}
+
+img.footer-logo {
+	display: block;
+	margin: auto;
+}
+
+.copyright {
+	margin-top 15px;
+}
+
+body > div.main-container > footer > div > div:nth-child(2) > div {
+	margin-top: 25px;
+}
+
+body > div.main-container > footer > div > div:nth-child(2) > div > span > a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+/******* Testimonials ********/
+.image-tile img {
+	height: 100%;
+}
+
