@@ -29,7 +29,8 @@ $(document).ready(function() {
                 offset = offset*1;
             }
             
-            smoothScroll.init({
+
+           var smoothScroll = new SmoothScroll('a.inner-link', {
                 selector: '.inner-link',
                 selectorHeader: null,
                 speed: 750,
@@ -139,7 +140,7 @@ $(document).ready(function() {
         $(this).toggleClass('active');
     });
 
-    $('.menu li').click(function(e) {
+    /*$('.menu li').click(function(e) {
         if (!e) e = window.event;
         e.stopPropagation();
         if ($(this).find('ul').length) {
@@ -147,7 +148,7 @@ $(document).ready(function() {
         } else {
             $(this).parents('.toggle-sub').removeClass('toggle-sub');
         }
-    });
+    });*/
 
     $('.menu li a').click(function() {
         if ($(this).hasClass('inner-link')){
