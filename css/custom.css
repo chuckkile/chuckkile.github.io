@@ -1,5 +1,9 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
+a {
+	cursor: pointer;
+}
+
 section,
 footer {
 	padding: 70px 0;
@@ -32,18 +36,31 @@ footer {
 	transition: color .3s;
 }
 
+.call-now {
+	font-size: 180%;
+}
+
+body > div.main-container > section.fullscreen.image-bg.parallax.background-multiply > div.align-bottom.text-center > div > a > i {
+	font-size: 120%;
+}
+
 /******* Icons ********/
 i.fa.fa-houzz,
 i.fa-facebook,
 i.fa-calendar,
 i.fa-handshake-o,
-i.fa-thumbs-up {
+i.fa-thumbs-up,
+i.fa-phone {
 	font-size: 200%;
 	transition: all .2s ease-in-out;
 }
 
-i.fa-phone {
-	font-size: 300%;
+i.fa.fa-phone:hover,
+i.fa.fa-phone:active {
+	color: green;
+	-webkit-transform: scale(1.35);
+	-ms-transform: scale(1.35);
+	transform: scale(1.35);
 }
 
 i.fa.fa-houzz:hover,
@@ -133,6 +150,11 @@ body > div.main-container > section:nth-child(7) {
 /******* Features ********/
 .custom-feature {
 	text-align: center;
+}
+
+/******* Contact ********/
+.phone-number {
+	font-size: 220%;
 }
 
 
