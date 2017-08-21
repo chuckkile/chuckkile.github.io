@@ -120,6 +120,8 @@ a.btn.btn-filled.btn-lg.mb0:active {
 	color: #706d66;
 }
 
+/******* About Us ********/
+
 
 /******* Team ********/
 .team-img {
@@ -129,10 +131,7 @@ a.btn.btn-filled.btn-lg.mb0:active {
 }
 
 /******* Services ********/
-body > div.main-container > section:nth-child(7) > div > section:nth-child(2),
-body > div.main-container > section:nth-child(7) {
-	padding: 70px 0 40px 0;
-}
+
 
 #services > div > section:nth-child(3) > div > div > div.col-md-4.col-md-offset-1.col-sm-5.col-sm-offset-1,
 #services > div > section:nth-child(5) > div > div > div.col-md-4.col-md-offset-1.col-sm-5.col-sm-offset-1 {
@@ -146,6 +145,10 @@ body > div.main-container > section:nth-child(7) {
 
 .services {
 	background-color: #
+}
+
+div.switched {
+	display: none;
 }
 
 /******* Features ********/

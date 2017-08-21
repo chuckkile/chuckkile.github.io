@@ -1,0 +1,9 @@
+/*********** Homepage ************/
+
+
+/**** Image Row ****/
+@media all and (max-width: 650px) {
+	.lightbox-grid li {
+		width: 100%;
+	}
+}
