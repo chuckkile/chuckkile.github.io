@@ -78,7 +78,7 @@
 	
 	.tile-right .description,
 	.tile-left .description {
-		padding: 0;
+		padding: 15px;
 	}
 	
 	.tile-left,
