@@ -74,8 +74,19 @@
 	section.section-tabs {
 		padding-bottom: 0;
 		min-height: 450px;
-		max-height: 1334px;
 	}
+	
+	.tile-right .description,
+	.tile-left .description {
+		padding: 0;
+	}
+	
+	.tile-left,
+	.tile-right {
+		min-height: 250px;
+	}
+	
+	
 	
 
 
