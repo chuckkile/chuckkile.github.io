@@ -1,5 +1,4 @@
 
-
 @media all and (max-width: 650px) {
 	/**** Image Row ****/
 
@@ -10,6 +9,10 @@
 		max-width: 250px;
 	}
 }
+
+
+
+
 
 
 @media all and (max-width: 769px) {
@@ -86,8 +89,18 @@
 		min-height: 250px;
 	}
 	
+	/**** GC Only ****/
+	/*div.gc-fix {
+		max-height: 680px;
+	}*/
+	div.tile-right.gc-fix {
+		min-height: 100px;
+		height: 170px;
+	}
 	
-	
+	section.showcase {
+		padding: 25px 0;
+	}
 
 
 	
