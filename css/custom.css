@@ -1,5 +1,12 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
+h1, h2, h3, h4, h5, h6 {
+}
+
+p {
+	font-size: 14px;
+}
+
 a {
 	cursor: pointer;
 }
@@ -124,10 +131,13 @@ a.btn.btn-filled.btn-lg.mb0:active {
 
 
 /******* Team ********/
-.team-img {
-	max-height: 250px;
-	max-width: 250px;
-	border-radius: 2px;
+
+
+body > div.main-container > section.about-us > div > div > div:nth-child(1) > div > img,
+body > div.main-container > section.about-us > div > div > div:nth-child(2) > div > img,
+body > div.main-container > section.about-us > div > div > div:nth-child(3) > div > img {
+	max-height: 350px;
+	width: auto;
 }
 
 /******* Services ********/
@@ -171,6 +181,10 @@ div.switched {
 img.footer-logo {
 	display: block;
 	margin: auto;
+}
+
+div.asso-logo {
+	height: 100px;
 }
 
 .copyright {
