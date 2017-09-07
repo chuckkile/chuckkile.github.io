@@ -138,6 +138,7 @@ body > div.main-container > section.about-us > div > div > div:nth-child(2) > di
 body > div.main-container > section.about-us > div > div > div:nth-child(3) > div > img {
 	max-height: 350px;
 	width: auto;
+	max-width: 216px;
 }
 
 /******* Services ********/

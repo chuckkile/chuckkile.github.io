@@ -41,7 +41,8 @@ if(isset($_POST['email']) && isset($_POST['name']) ){
 
 $message = Swift_Message::newInstance($emailSubject)
   ->setFrom($fromArray)
-  ->setTo(array($recipientEmail => $recipientName))->setBody($messageText);
+  ->setTo(array($recipientEmail => $recipientName))->setBody($messageText)
+	->addCc($ccRecipientEmail);
 
 // Send the message or catch an error if it occurs.
 try{
