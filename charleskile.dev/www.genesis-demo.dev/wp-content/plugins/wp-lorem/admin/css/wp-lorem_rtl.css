@@ -1,0 +1,18 @@
+.wpl_wrapper input[type=checkbox].css-checkbox + label.css-label{
+	padding-left:0px;
+	padding-right:35px;
+}
+.wpl_wrapper input[type=checkbox].css-checkbox + label.css-label{
+	background-position: 100%  0;
+}
+.wpl_wrapper input[type=checkbox].css-checkbox:checked + label.css-label{
+	background-position: 100%  -30px;
+}
+.wpl_wrapper .box_wrap .box_inner .aside_wrapper {
+    float: right;
+    border-left: 1px solid #eee;
+	border-right: 0;
+}
+.wpl_wrapper .box_wrap .box_inner .body_wrapper{
+	float: left;
+}

@@ -1,0 +1,16 @@
+/*
+Theme Name:     Twentyseventeen Child
+Theme URI:      http://www.chuckisawesome.com
+Description:    Practice Child Theme
+Author:         Chuck
+Author URI:     http://www.chuckisawesome.com
+Template:       Twentyseventeen
+Version:        1.0.0
+*/
+
+@import url(/www.charleskile.dev/wp-content/themes/twentyseventeen/style.css)
+	
+	
+	.site-content-contain {
+		background-color: #555;
+}
